@@ -34,6 +34,8 @@ Mid-Level (ESP32): Supervisory control, trajectory scheduling, CAN bus coordinat
 
 Low-Level (STM32 FOC): Motor control using Field-Oriented Control (FOC).
 
+---
+
 ### Hardware & Software Stack
 
 ESP32-WROOM: Supervisory controller + communication gateway.
@@ -54,6 +56,11 @@ Solidworks & Fusion360 : For Designing the robotic arm
 
 Ansys Workbench : CFD Profiling 
 
+---
+
+![SIM](https://github.com/user-attachments/assets/23fbbbcf-73d2-4adf-98b3-50eba53e8c1e)
+
+
 # Wanna try out the simulation yourself? 
 
 1. download [coppeliaSim](https://www.coppeliarobotics.com/)
@@ -62,7 +69,7 @@ Ansys Workbench : CFD Profiling
 3. Open CoppeliaSim.
 Navigate to Modules > Importers > URDF importer
 Select the main URDF file you exported. The importer will load the robot model and its visual and collision geometries.
-4. Add the above script to your model
+4. Add the above scripts to your model
 
 
 
